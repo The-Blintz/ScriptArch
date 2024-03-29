@@ -625,7 +625,7 @@ arch-chroot /mnt /bin/bash -c "pacman -S xorg --noconfirm"
   # arch-chroot /mnt /bin/bash -c "pacman -S xorg-xinit --noconfirm"
   # arch-chroot /mnt /bin/bash -c "pacman -S xorg-twm --noconfirm"
   # arch-chroot /mnt /bin/bash -c "pacman -S xterm --noconfirm"
-arch-chroot /mnt /bin/bash -c "sudo -u $username pacman -S plasma konsole dolphin ark kwrite kcalc spectacle krunner partitionmanager packagekit-qt5 discover sddm libxcb qt5-virtualkeyboard --noconfirm"
+arch-chroot /mnt /bin/bash -c "pacman -S plasma konsole dolphin ark kwrite kcalc spectacle krunner partitionmanager packagekit-qt5 discover sddm libxcb qt5-virtualkeyboard --noconfirm"
 
   # arch-chroot /mnt /bin/bash -c "sudo -u $username pacman -S  plasma --noeditmenu --noconfirm --needed"
   # arch-chroot /mnt /bin/bash -c "sudo -u $username pacman -S  dolphin --noeditmenu --noconfirm --needed"
