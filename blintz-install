@@ -17,7 +17,7 @@ welcome_title=" -| Language Select |- "
 
 
 cmd=(dialog --nocancel --backtitle "Welcome : $(date "+%A, %B %d, %Y - %I:%M %p")" --title "${welcome_title}" \
-    --menu "\nDonations in: www.patreon.com/codigocristo\n\nSelect the language of the installer:\n\n---------------------------------------------\n\nDonaciones en: www.patreon.com/codigocristo\n\nSeleccione el idioma del instalador:\n " 20 60 10)
+    --menu "\nDonations in: www.patreon.com/codigocristo\n\nSelect the language of the installer:\n\n--------------------aqui estoy-------------------------\n\nDonaciones en: www.patreon.com/codigocristo\n\nSeleccione el idioma del instalador:\n " 20 60 10)
 
 options=(1 "Español"
          2 "English"
